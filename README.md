@@ -7,23 +7,28 @@ This app allows you to create, read, edit, list, and delete notes directly from 
 
 ## Features
 
-- Add new notes with a title and comment
-  use -> node app.js add --title="..." --comment="..."
+- ➕ Add new notes with a title and comment
 
-- Remove a single note by title
-  use -> node app.js remove --title="..."
+  - node app.js add --title="..." --comment="..."
 
-- Remove all notes at once
-  use -> node app.js remove-all
+- ❌ Remove a single note by title
 
-- List all note titles
-  use -> node app.js list
+  - node app.js remove --title="..."
 
-- Read a note by title
-  use -> node app.js read --title="..."
+- 🗑 Remove all notes at once
 
-- Edit the comment of an existing note
-  use -> node app.js --title="..." --comment="..Add new.."
+  - node app.js remove-all
+
+- 📋 List all note titles
+
+  - node app.js list
+
+- 📖 Read a note by title
+
+  - node app.js read --title="..."
+
+- ✏️ Edit the comment of an existing note
+  - node app.js --title="..." --comment="..Add new.."
 
 ---
 
